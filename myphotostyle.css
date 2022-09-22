@@ -81,15 +81,25 @@ h3{
 
 .content--wrapper{
     display: flex;
+    flex-direction: column;
 }
 
 .content{
     width: 100%;
     padding: 20px; 
 }
-.photo{
-    height: 100px;
-    width: 200px;
-    background: url(images1/photo1.jpg) no-repeat center center / cover;
-
+.content h3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.photo{   
+    border: 5px solid #ffffff; /* Рамка навколо зображення */
+    padding: 15px; /* Відстань від картинки до рамки */
+    background: rgb(230, 222, 222); /* Колір фона */
+    margin-right: 10px; /* Відступ зправа */
+    margin-bottom: 10px; /* Відступ знизу */
+    
+}
+ 
